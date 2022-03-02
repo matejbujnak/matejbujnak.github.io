@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(to bottom right, #00ffff 0%, #ff66cc 100%);
+    height: 100%;
+}
+
+.nadpis {
+    text-align: center;
+    background-color: black;
+    margin: 4px auto;
+    width: 400px;
+    height: 40sx;
+}
+
+h1 {
+    color:aliceblue;
+    margin: 5px 5px 5px 5px;
+}
+
+img {
+    height: 400px;
+}
