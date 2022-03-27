@@ -14,6 +14,17 @@
   <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
   <title>Mateshop</title>
+  <script>
+      $(function() {
+	$("#visible").click(function() {
+	    $('#invisible').toggleClass("show");
+	  });  
+	});
+    </script>
+    <style>
+      .hide{display:none;}
+      .show{display:block;}
+    </style>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -108,7 +119,7 @@
                     <p>
                       Pripravili sme si pre vás zľavy až do 50%.
                     </p>
-                    <div class="btn-box">
+                    <div class="btn-box stred">
                       <a href="zlavy.html" class="btn1">
                         Zľavy
                       </a>
@@ -199,7 +210,7 @@
       <div class="row">
         <div class="col-md-12 ">
           <div class="box">
-            <a href="/zlavy.html">
+            <a href="zlavy.html">
               <div class="img-box texty1">
                 Zľavy
               </div>
@@ -354,7 +365,7 @@
                 <div class="client_info">
                   <div class="client_name">
                     <h5>
-                      Adam Horvat
+                      Denis Forgaš
                     </h5>
                     <h6>
                       Zákazník
@@ -377,7 +388,7 @@
                 <div class="client_info">
                   <div class="client_name">
                     <h5>
-                      Bianka
+                      Bianka Capka
                     </h5>
                     <h6>
                       Zákazník
@@ -386,7 +397,7 @@
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
                 </div>
                 <p>
-                  Veľmi odporúčam, priateľský support team.
+                  Rada si kupujem od tejto značky oblečenie
                 </p>
               </div>
             </div>
@@ -400,7 +411,7 @@
                 <div class="client_info">
                   <div class="client_name">
                     <h5>
-                      Jakub Horvat
+                      Andrej Dvonč
                     </h5>
                     <h6>
                       Zákazník
@@ -409,7 +420,7 @@
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
                 </div>
                 <p>
-                  Veľmi odporúčam, priateľský support team.
+                  Super látka, odporučám kupovať
                 </p>
               </div>
             </div>
@@ -523,7 +534,6 @@
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- End Google Map -->
-
 </body>
 
 </html>

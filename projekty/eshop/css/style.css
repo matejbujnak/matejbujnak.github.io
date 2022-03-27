@@ -74,6 +74,9 @@ height: 580px;
 .texty2 {
   font-size: 50px;
 }
+.zlava {
+  text-decoration: line-through;
+}
 .layout_padding {
   padding: 90px 0;
 }
@@ -374,11 +377,13 @@ a:focus {
 
 .slider_section .detail-box {
   color: #ffffff;
+  text-align: center;
 }
 
 .slider_section .detail-box h1 {
   font-weight: bold;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .slider_section .detail-box .btn-box {
@@ -393,6 +398,7 @@ a:focus {
   margin: 5px;
   text-align: center;
   width: 185px;
+  text-align: center;
 }
 
 .slider_section .detail-box .btn-box .btn1 {
@@ -404,6 +410,7 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #0AD3FF;
+  margin: 0 auto
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
@@ -519,6 +526,15 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 45px;
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: gray;
 }
 
 .shop_section .btn-box a {
