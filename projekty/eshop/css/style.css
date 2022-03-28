@@ -76,6 +76,7 @@ height: 580px;
 }
 .zlava {
   text-decoration: line-through;
+  color: red;
 }
 .layout_padding {
   padding: 90px 0;
